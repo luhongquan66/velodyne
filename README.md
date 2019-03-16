@@ -26,8 +26,9 @@ testing has not been completed in those environments.
   sudo apt-get install ros-kinetic-velodyne
   mkdir -p velodyneDriver/src && cd velodyneDriver/src
   git clone https://github.com/luhongquan66/velodyne.git
+  cd velodyne/
   git checkout -b neuav origin/neuav
-  cd ..
+  cd ../..
   rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
   catkin_make
 ```
