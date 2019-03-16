@@ -21,4 +21,3 @@ testing has not been completed in those environments.
 - <sup>2</sup>Velodyne: http://www.ros.org/wiki/velodyne
 - <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
 
-这个版本对vleodyne64 S3支持很好！
