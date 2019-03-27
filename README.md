@@ -21,3 +21,14 @@ testing has not been completed in those environments.
 - <sup>2</sup>Velodyne: http://www.ros.org/wiki/velodyne
 - <sup>3</sup>`Velodyne high definition 3D LIDARs`: http://www.velodynelidar.com/lidar/lidar.aspx
 
+**安装方法**
+```
+  sudo apt-get install ros-kinetic-velodyne
+  mkdir -p velodyneDriver/src && cd velodyneDriver/src
+  git clone https://github.com/luhongquan66/velodyne.git
+  cd velodyne/
+  git checkout -b neuav origin/neuav
+  cd ../..
+  rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
+  catkin_make
+```
